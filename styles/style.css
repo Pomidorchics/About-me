@@ -12,11 +12,15 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    /* align-items: center; */
     align-content: space-between;
     font-size: 45px;
 }
 
 .aboutme {
     font-style: italic;
+}
+
+.main {
+    display: grid;
+    justify-items: center;
 }
