@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    /* align-items: center; */
+    align-content: space-between;
+    font-size: 45px;
+}
+
+.aboutme {
+    font-style: italic;
+}
