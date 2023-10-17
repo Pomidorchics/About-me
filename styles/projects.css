@@ -19,3 +19,14 @@ a {
 #projects {
     font-style: italic;
 }
+
+.main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 10%;
+}
+
+.my_project {
+    font-size: 40px;
+}
