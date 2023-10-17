@@ -23,4 +23,17 @@ a {
 .main {
     display: grid;
     justify-items: center;
+    padding: 10%;
+    padding-top: 5%;
+}
+
+#name {
+    font-size: 45px;
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+#info {
+    font-size: 40px;
+    padding: 5%;
 }
