@@ -3,8 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
+    <style>
+        body {
+            background-color: pink;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            align-items: center;
+            align-content: space-between;
+            font-size: 45px;
+        }
+
+        #aboutme {
+            font-style: italic;
+        }
+
+        .main {
+            display: grid;
+            justify-items: center;
+            padding: 10%;
+            padding-top: 5%;
+        }
+
+        #name {
+            font-size: 45px;
+            padding: 5%;
+            padding-bottom: 0;
+        }
+
+        #info {
+            font-size: 40px;
+            padding: 5%;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
