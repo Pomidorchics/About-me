@@ -6,7 +6,7 @@
     <title>Leina Alexandra</title>
     <style>
         body {
-            background-color: rgb(255, 184, 196);
+            background-color: rgb(243, 188, 197);
             color: white;
         }
 
@@ -15,53 +15,64 @@
             color: white;
         }
 
-        .nav {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            justify-items: center;
-            align-items: center;
-            align-content: space-between;
-            font-size: 40px;
-        }
-
-        #aboutme {
-            font-style: italic;
-        }
-
         .main {
             display: grid;
             justify-items: center;
-            padding: 10%;
-            padding-top: 5%;
+            align-items: center;
+            padding: 0;
+            margin: 10%;
+            border-radius: 15px;
+        }
+
+        .social_info {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            align-items: center;
+            justify-items: center;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .social_info__item {
+            font-size: 30px;
+            align-self: center;
+            justify-self: center;
+            /* padding: 0;
+            margin: 0; */
         }
 
         #name {
-            font-size: 40px;
-            padding: 5%;
-            padding-bottom: 0;
+            font-size: 50px;
+            text-decoration: none;
+            font-style: italic;
+            /* padding: 0;
+            margin: 0; */
         }
 
-        #info {
-            font-size: 35px;
-            padding: 5%;
-        }
     </style>
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a id="aboutme" href="index.html">Обо мне</a>
-            <a id="contacts" href="contacts.html">Контакты</a>
-            <a id="projects" href="projects.html">Мои проекты</a>
-        </nav>
-    </header>
-
     <main class="main">
-        <img src="images/photo.png" alt="my photo" width="300" height="300">
-        <div id="name">Леина Александра</div>
-        <div id="info">
-            Здесь будет ну ооочень интересный текст о том, как я выросла, закончила школу, играла на пианино, три раза сменила фамилию, как, куда и зачем поступила, и какая я все-таки молодец
-        </div>
+        <h1 id="name">Леина Александра Владимировна</h1>
+        <ul class="social_info">
+            <li class="social_info__item">
+                <a href="tel:+79146595300">
+                    +7 (914) 659-53-00
+                </a>
+            </li>
+            <li class="social_info__item">
+                <a href="https://t.me/Alexa7811">
+                    <img src="images/tg.svg" alt="tg" width="45px" height="45px">
+                </a>
+            </li>
+            <li class="social_info__item">
+                <a href="https://vk.com/id283729133">
+                    <img src="images/vk.svg" alt="vk" width="45px" height="45px">
+                </a>
+            </li>
+        </ul>
     </main>
 </body>
 </html>
