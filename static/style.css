@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(243, 188, 197);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 0;
+    margin: 10%;
+    border-radius: 15px;
+}
+
+.social_info {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social_info__item {
+    font-size: 30px;
+}
+
+#name {
+    font-size: 50px;
+    text-decoration: none;
+    font-style: italic;
+}
