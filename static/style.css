@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(174, 84, 46);
+    font-family: Montserrat, sans-serif;
+    background-color: rgb(213, 123, 90);
     color: white;
 }
 
@@ -8,61 +9,14 @@ a {
     color: white;
 }
 
-@media (min-width: 992px) {
-    .social_info__item {
-        font-size: 30px;
-    }
-
-    #name {
-        font-size: 50px;
-        text-decoration: none;
-        font-style: italic;
-    }
-}
-
-@media (min-width: 480px) and (max-width: 991px) {
-    .social_info__item {
-        font-size: 20px;
-    }
-
-    #name {
-        font-size: 40px;
-        text-decoration: none;
-        font-style: italic;
-    }
-}
-
-@media (min-width:321px) and (max-width: 479px) {
-    .social_info__item {
-        font-size: 13px;
-    }
-
-    #name {
-        font-size: 30px;
-        text-decoration: none;
-        font-style: italic;
-    }
-}
-
-@media (max-width: 320px) {
-    .social_info__item {
-        font-size: 7px;
-    }
-
-    #name {
-        font-size: 20px;
-        text-decoration: none;
-        font-style: italic;
-    }
-}
-
 .main {
+    z-index: 1;
     display: grid;
     justify-items: center;
     align-items: center;
-    padding: 0;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 10%;
     border-radius: 15px;
     border: 2px solid white;
 }
@@ -76,4 +30,76 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    src: local("Montserrat"),
+             url("Montserrat-ExtraLight.woff") format("woff");
+  }
+
+@media (min-width: 992px) {
+    .social_info__item {
+        font-size: 30px;
+    }
+
+    #name {
+        margin-top: 0;
+        font-size: 50px;
+        text-decoration: none;
+    }
+
+    .main{
+        margin-top: 15%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 991px) {
+    .social_info__item {
+        font-size: 20px;
+    }
+
+    #name {
+        margin-top: 0;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    .main{
+        margin-top: 30%;
+    }
+}
+
+@media (min-width:321px) and (max-width: 479px) {
+    .social_info__item {
+        font-size: 13px;
+    }
+
+    #name {
+        margin-top: 0;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    .main{
+        margin-top: 50%;
+    }
+}
+
+@media (max-width: 320px) {
+    .social_info__item {
+        font-size: 7px;
+    }
+
+    #name {
+        margin-top: 0;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .main{
+        margin-top: 40%;
+    }
 }
