@@ -37,7 +37,7 @@ ul {
     font-style: normal;
     font-weight: 200;
     src: local("Montserrat"),
-             url("Montserrat-ExtraLight.woff") format("woff");
+             url("fonts/Montserrat-ExtraLight.woff") format("woff");
   }
 
 @media (min-width: 992px) {
